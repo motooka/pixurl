@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		body {
+			width: 280px;
+			box-sizing: border-box;
+		}
+		h1 {
+			margin: 0 0 0.2em 0;
+		}
+		#theTextArea {
+			width: 100%;
+			resize: none;
+		}
+		#execContainer {
+			text-align: center;
+		}
+		#error {
+			display: none;
+			color: red;
+		}
+	</style>
+	<script src="popup.js"></script>
+</head>
+<body>
+<h1>PixURL</h1>
+<textarea id="theTextArea" rows="3" placeholder="ここにペースト(貼り付け)
+(PIXTA素材IDを含みうる文章をペースト)"></textarea><br/>
+最大<input type="number" id="max" min="1" max="20" step="1" value="5">個までタブを開く<br/>
+
+<p id="execContainer">
+	<button id="exec">PIXTA素材を探す</button>
+</p>
+<div id="error">PIXTA素材IDらしき情報は見当たりませんでした</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"name": "PixURL",
+	"version": "1.0",
+	"description": "与えられたテキストから画像素材サイト「PIXTA」の素材ナンバーらしき文字列を検出して素材ページを開く、Chrome拡張です。PIXTAの公式のものではありません。この拡張そのものも拡張の作者も、ピクスタ株式会社とは全く関係ございません。",
+	"icons": {
+		"16": "icon16px.png",
+		"48": "icon48px.png",
+		"128": "icon128px.png"
+	},
+	"browser_action": {
+		"default_title": "PixURL",
+		"default_popup": "popup.html"
+	},
+	"manifest_version": 2
+}
