@@ -1,4 +1,4 @@
-==== License for everything in this repository EXCEPT icons
+==== License for everything in this repository EXCEPT icons and screenshots
 
 MIT License
 
@@ -22,10 +22,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-==== License for icons
+
+==== License for icons and screenshots
+
 Copyright (c) 2018 Tadahisa MOTOOKA
-アイコンのファイル（SVGおよびPNG）は、以下の条件を全て満たす場合に限り、再配布することができます。
-- アイコンのファイルを修正（但しリサイズ処理およびSVGのラスタライズ処理を除く）しないこと
+アイコンやスクリーンショットのファイル（SVGおよびPNG）は、以下の条件を全て満たす場合に限り、再配布することができます。
+- ファイルを修正（但しリサイズ処理およびSVGのラスタライズ処理を除く）しないこと
 - このアプリケーションの名称を伴っていること
+- この著作権表記およびライセンス条項を伴っていること
 - オリジナルのリポジトリのURL（https://github.com/motooka/pixurl/branches）へのリンクを伴っていること（但し技術的制約がある場合を除く）
 - ソースコードを伴った再配布である場合、そのソースコードはオリジナルのバージョンから修正していないこと
