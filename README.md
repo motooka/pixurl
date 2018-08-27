@@ -23,10 +23,10 @@ PIXTAの公式のものではありません。この拡張そのものも拡張
 ## zipの作成方法
 - Mac/Linux等の場合
 	- bash（WindowsならPowerShell）でリポジトリのワーキングコピーのディレクトリに行く
-	- `zip pixurl.zip *.png *.json *.html *.js`
+	- `zip pixurl.zip icon*.png *.json *.html *.js`
 - Windowsの場合
 	- Explorerでリポジトリのワーキングコピーのディレクトリに行く
-	- `zip pixurl.zip *.png *.json *.html *.js` に相当する操作をする（shiftクリックでファイルを選択して、右クリックで圧縮）
+	- `zip pixurl.zip icon*.png *.json *.html *.js` に相当する操作をする（shiftクリックでファイルを選択して、右クリックで圧縮）
 
 ## アップロード
 Googleアカウントにログインした状態で、[Chromeウェブストアのデベロッパーダッシュボード](https://chrome.google.com/webstore/developer/dashboard/)にアクセス。
