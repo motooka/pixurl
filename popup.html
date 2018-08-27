@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<style>
 		body {
-			width: 280px;
+			width: 360px;
 			box-sizing: border-box;
 		}
 		h1 {
@@ -13,6 +13,10 @@
 		#theTextArea {
 			width: 100%;
 			resize: none;
+		}
+		#max {
+			width: 3em;
+			text-align: right;
 		}
 		#execContainer {
 			text-align: center;
@@ -26,13 +30,13 @@
 </head>
 <body>
 <h1>PixURL</h1>
-<textarea id="theTextArea" rows="3" placeholder="ここにペースト(貼り付け)
-(PIXTA素材IDを含みうる文章をペースト)"></textarea><br/>
+<textarea id="theTextArea" rows="4" placeholder="ここにペースト(貼り付け)
+(PIXTA素材ナンバーを含みうる文章をペースト)"></textarea><br/>
 最大<input type="number" id="max" min="1" max="20" step="1" value="5">個までタブを開く<br/>
 
 <p id="execContainer">
 	<button id="exec">PIXTA素材を探す</button>
 </p>
-<div id="error">PIXTA素材IDらしき情報は見当たりませんでした</div>
+<div id="error">PIXTA素材ナンバーらしき情報は見当たりませんでした</div>
 </body>
 </html>
