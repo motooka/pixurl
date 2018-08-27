@@ -2,9 +2,12 @@
 与えられたテキストから画像素材サイト「PIXTA」の素材ナンバーらしき文字列を検出して素材ページを開く、Chrome拡張です。
 PIXTAの公式のものではありません。この拡張そのものも拡張の作者も、ピクスタ株式会社とは全く関係ございません。
 
+Chromeウェブストアでの公開場所：[https://chrome.google.com/webstore/detail/pixurl/dheknalejekeagnebpooldfncpiofoeb](https://chrome.google.com/webstore/detail/pixurl/dheknalejekeagnebpooldfncpiofoeb)
+
 # ライセンス
-- アイコン以外：MITライセンス
-- アイコン：独自ライセンス
+- アイコンとスクリーンショット：独自ライセンス
+- それ以外：MITライセンス
+
 詳しくは[LICENSE](./LICENSE)をご覧下さい。
 
 # 開発＆デバッグ
